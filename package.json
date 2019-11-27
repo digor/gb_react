@@ -1,0 +1,22 @@
+{
+  "name": "gb_my_react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digor/gb_react.git"
+  },
+  "author": "Igor Dabija",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/digor/gb_react/issues"
+  },
+  "homepage": "https://github.com/digor/gb_react#readme",
+  "dependencies": {
+    "webpack": "^4.41.2"
+  }
+}
