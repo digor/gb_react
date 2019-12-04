@@ -2,10 +2,16 @@
   "name": "gb_my_react",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "static_src/index.jsx",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack --mode development",
+    "build": "webpack",
+    "server": "webpack-dev-server"
   },
+  "keywords": [
+    "react",
+    "GeekBrains"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/digor/gb_react.git"
@@ -17,6 +23,17 @@
   },
   "homepage": "https://github.com/digor/gb_react#readme",
   "dependencies": {
-    "webpack": "^4.41.2"
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "webpack": "^4.41.2",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.10"
   }
 }
