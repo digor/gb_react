@@ -34,7 +34,7 @@ export default class MessageField extends React.Component {
         return <div>
             { messageElements }
             <button onClick={ this.handleClick }>Отправить сообщение</button><br/>
-            <button onClick={ this.handleClickEmpty }>Отправить пустое сообщение</button>
+            <button onClick={ this.handleClickEmpty }>Отправить пустое_сообщение )</button>
         </div>
     }
 }
